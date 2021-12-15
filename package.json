@@ -1,0 +1,22 @@
+{
+  "name": "cbg-recovery-boutique-theme",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme for CancerBeGlammed.com",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanowski-f/cancerbeglammed.git"
+  },
+  "author": "Roman Franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanowski-f/cancerbeglammed/issues"
+  },
+  "homepage": "https://github.com/romanowski-f/cancerbeglammed#readme",
+  "devDependencies": {
+    "purify-css": "^1.2.5"
+  }
+}
