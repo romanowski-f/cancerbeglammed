@@ -1,7 +1,7 @@
 <?php
 
 if ( ! defined( 'CBG_VERSION' ) ) {
-  define( 'CBG_VERSION', '1.0.0' );
+  define( 'CBG_VERSION', '2.0.0' );
 }
 
 function cbg_theme_setup() {
@@ -64,10 +64,10 @@ require get_template_directory() . '/inc/template-widgets.php';
  */
 function safely_add_stylesheet() {
   // Boostrap CSS
-  wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', array(), '1.0.0');
+  wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', array() );
 
   // Bootstrap JS
-  wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array(), '1.0.0');
+  wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array() );
 
   // Font Awesome
   wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.12/css/all.css');
@@ -76,20 +76,20 @@ function safely_add_stylesheet() {
   wp_enqueue_style('cbg-fonts', 'https://use.typekit.net/jii2kmx.css');
 
   // Style
-	wp_enqueue_style( 'prefix-style', get_template_directory_uri() . '/style.css', array(), CBG_VERSION, 'all' );
+  wp_enqueue_style( 'main-styles', get_stylesheet_uri(), array(), CBG_VERSION );
 
   // Front Page
   if (is_front_page()) {
     // Slider
-    wp_enqueue_style('slider-css', get_template_directory_uri() . '/css/slider.css', array(), '1.0.06', 'all' ); 
+    wp_enqueue_style('slider-css', get_template_directory_uri() . '/css/slider.css', array(), CBG_VERSION, 'all' ); 
 
     // Animate.css
     wp_enqueue_style('animate-css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
     // Viewport-anim.css
-    wp_enqueue_style('viewport-anim-css', get_template_directory_uri() . '/css/viewport-anim.css', array(), '1.0.04', 'all' );  
+    wp_enqueue_style('viewport-anim-css', get_template_directory_uri() . '/css/viewport-anim.css', array(), CBG_VERSION, 'all' );  
 
-    wp_register_script('viewport-anim', get_template_directory_uri() . '/js/scripts.js', array(), '1.0.02');
+    wp_register_script('viewport-anim', get_template_directory_uri() . '/js/scripts.js', array(), CBG_VERSION);
     wp_enqueue_script('viewport-anim');    
   }
 
@@ -109,7 +109,7 @@ function enqueue_cbg_for_real_stylesheet() {
       'cbg-for-real',
       get_stylesheet_directory_uri() . '/css/cbg-for-real.css',
       array( ),
-      '1.0.07'
+      CBG_VERSION
   );
 
   wp_register_style(
