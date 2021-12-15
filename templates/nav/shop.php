@@ -66,7 +66,7 @@
 							<div class="d-flex align-self-end align-self-sm-start">
 								<a class="my-account d-none d-md-block" href="<?php echo bloginfo('url'); ?>/my-account" title="My Account"><i class="fas fa-user-circle"></i></a>
 								<a class="view-cart" href="<?php echo bloginfo('url'); ?>/bag">
-									<span class="bag d-block d-md-inline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/header/icon-bag.png"></span>
+									<span class="bag d-block d-md-inline"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/header/icon-bag.png"></span>
 								<div class="cart-total"><?php echo sprintf ( _n( '%d', '%d', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></div>
 								</a>										
 							</div>

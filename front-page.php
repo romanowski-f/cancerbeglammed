@@ -21,8 +21,8 @@
 				<a class="d-block mb-4" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">
 					<div class="bucket-img-wrapper" style="max-height: 200px">
 						<picture>
-<!-- 							<source srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/life-style-collection-webp.webp" type="image/webp"> -->
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/life-style-collection-new.jpg" loading="lazy" alt="Recovery Life & Style Collection">
+<!-- 							<source srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/front-page/life-style-collection-webp.webp" type="image/webp"> -->
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/front-page/life-style-collection-new.jpg" loading="lazy" alt="Recovery Life & Style Collection">
 						</picture>
 					</div>
 				</a>	
@@ -44,8 +44,8 @@
 				<a class="d-block mb-4" href="<?php echo bloginfo('url'); ?>/shop/gift-her">
 					<div class="bucket-img-wrapper" style="max-height: 200px">
 						<picture>
-							<source srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/feat-help.webp" type="image/webp">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/front-page/feat-help.jpg" loading="lazy" alt="Gift Her Collection">
+							<source srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/front-page/feat-help.webp" type="image/webp">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/front-page/feat-help.jpg" loading="lazy" alt="Gift Her Collection">
 						</picture>
 					</div>
 				</a>	
@@ -67,8 +67,8 @@
 				<a class="d-block mb-4" href="<?php echo get_option('home'); ?>/recover-in-style-book">
 					<div class="bucket-img-wrapper" style="max-height: 200px">
 						<picture>
-							<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/front-page/the-guide.webp'; ?>" type="image/webp">
-							<img src="<?php echo get_stylesheet_directory_uri() . '/images/the-guide.jpg'; ?>" loading="lazy" alt="Cancer Be Glammed: The Guide">
+							<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/front-page/the-guide.webp'; ?>" type="image/webp">
+							<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/the-guide.jpg'; ?>" loading="lazy" alt="Cancer Be Glammed: The Guide">
 						</picture>
 					</div>
 				</a>
@@ -90,8 +90,8 @@
 				<a class="d-block mb-4" href="<?php echo get_option('home'); ?>/cbg-blog/cancer-be-glammeds-best-holiday-gifts-for-women-coping-with-cancer-in-2021">
 					<div class="bucket-img-wrapper" style="max-height: 200px">
 						<picture>
-							<!-- <source srcset="<?php echo get_stylesheet_directory_uri() . '/images/front-page/feat-holiday.webp'; ?>" type="image/webp"> -->
-							<img src="<?php echo get_stylesheet_directory_uri() . '/images/front-page/feat-holiday.jpg'; ?>" loading="lazy" alt="Cancer Be Glammed Best Holiday Gifts 2021">
+							<!-- <source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/front-page/feat-holiday.webp'; ?>" type="image/webp"> -->
+							<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/front-page/feat-holiday.jpg'; ?>" loading="lazy" alt="Cancer Be Glammed Best Holiday Gifts 2021">
 						</picture>
 					</div>
 				</a>
@@ -150,12 +150,12 @@
 <div class="row sign-up-section mb-5">
 	<div class="col">
 		<a href="" data-toggle="modal" data-target="#tell-a-glam-signup" class="d-block">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/front-page/tell-a-glam-banner.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/tell-a-glam-banner.jpg" alt="">
 		</a>
 	</div>
 	<div class="col">
 		<a href="https://cancerbeglammed.com/recovery-shopping-checklist">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/front-page/shopping-checklist-banner.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/front-page/shopping-checklist-banner.jpg" alt="">
 		</a>
 	</div>
 </div>
@@ -168,48 +168,48 @@
     	<div class="featured-in--item">
     		<a href="https://www.nytimes.com/2019/09/19/well/live/cancer-patients-tell-us-about-finding-clothing-to-adapt-to-changing-bodies.html" target="_blank">
     			<picture>
-    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/featured/New-York-Times-Logo.webp'; ?>" type="image/webp">
-    				<img src="<?php echo get_stylesheet_directory_uri() . '/images/featured/New-York-Times-Logo.png'; ?>" alt="New York Times">
+    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/New-York-Times-Logo.webp'; ?>" type="image/webp">
+    				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/New-York-Times-Logo.png'; ?>" alt="New York Times">
     			</picture>
     		</a>
     	</div>
     	<div class="featured-in--item">
     		<a href="https://www.today.com/style/gowns-scarves-designers-help-cancer-patients-recover-style-6C10931270" target="_blank">
     			<picture>
-    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/featured/today-logo.webp'; ?>" type="image/webp">
-    				<img src="<?php echo get_stylesheet_directory_uri() . '/images/featured/today-logo.jpg'; ?>" loading="lazy" alt="Today.com">
+    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/today-logo.webp'; ?>" type="image/webp">
+    				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/today-logo.jpg'; ?>" loading="lazy" alt="Today.com">
     			</picture>
     		</a>
     	</div>
     	<div class="featured-in--item">
     		<a href="https://conquer-magazine.com/issues/2019/vol-5-no-2-april-2019/953-when-losing-is-winning" target="_blank">
     			<picture>
-    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/featured/conquer-logo.webp'; ?>" type="image/webp">
-    				<img src="<?php echo get_stylesheet_directory_uri() . '/images/featured/conquer-logo.jpg'; ?>" loading="lazy" alt="Conquer Magazine">
+    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/conquer-logo.webp'; ?>" type="image/webp">
+    				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/conquer-logo.jpg'; ?>" loading="lazy" alt="Conquer Magazine">
     			</picture>
     		</a>
     	</div>
     	<div class="featured-in--item">
     		<a href="https://www.business.att.com/learn/top-voices/helping-women-recover-with-comfort-and-style.html" target="_blank">
     			<picture>
-    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/featured/att-logo.webp'; ?>" type="image/webp">
-    				<img src="<?php echo get_stylesheet_directory_uri() . '/images/featured/att-logo.png'; ?>" loading="lazy" alt="AT&T Business">
+    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/att-logo.webp'; ?>" type="image/webp">
+    				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/att-logo.png'; ?>" loading="lazy" alt="AT&T Business">
     			</picture>
     		</a>
     	</div>
     	<div class="featured-in--item">
     		<a href="https://pittsburgh.cbslocal.com/video/3874485-cancer-be-glammed-unveils-new-guidebook/" target="_blank">
     			<picture>
-    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/featured/kdka-logo.webp'; ?>" type="image/webp">
-    				<img src="<?php echo get_stylesheet_directory_uri() . '/images/featured/kdka-logo.jpg'; ?>" loading="lazy" alt="CBS Local Pittsburgh">
+    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/kdka-logo.webp'; ?>" type="image/webp">
+    				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/kdka-logo.jpg'; ?>" loading="lazy" alt="CBS Local Pittsburgh">
     			</picture>
     		</a>
     	</div>
     	<div class="featured-in--item">
     		<a href="http://broadcast-podcast.com/2018/05/31/the-broadcast-podcast-episode-39-lisa-lurie/" target="_blank">
     			<picture>
-    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/images/featured/broadcast-logo.webp'; ?>" type="image/webp">
-    				<img src="<?php echo get_stylesheet_directory_uri() . '/images/featured/broadcast-logo.jpg'; ?>" loading="lazy" alt="The Broadcast Podcast">
+    				<source srcset="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/broadcast-logo.webp'; ?>" type="image/webp">
+    				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/featured/broadcast-logo.jpg'; ?>" loading="lazy" alt="The Broadcast Podcast">
     			</picture>
     		</a>
     	</div>

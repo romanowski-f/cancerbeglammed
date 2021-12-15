@@ -3,37 +3,37 @@
 
 		<div id="slide-1" class="carousel-item active">
 			<div class="item-wrapper d-flex align-items-center">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/recover-slide-1.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slides/recover-slide-1.jpg" alt="">
 			</div>
 		</div>
 
 		<div id="slide-2" class="carousel-item">
 			<div class="item-wrapper d-flex align-items-center">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/recover-slide-2.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slides/recover-slide-2.jpg" alt="">
 			</div>
 		</div>
 
 		<div id="slide-3" class="carousel-item">
 			<div class="item-wrapper d-flex align-items-center">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/recover-slide-3.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slides/recover-slide-3.jpg" alt="">
 			</div>
 		</div>
 
 		<div id="slide-4" class="carousel-item">
 			<div class="item-wrapper d-flex align-items-center">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/recover-slide-4.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slides/recover-slide-4.jpg" alt="">
 			</div>
 		</div>
 
 		<div id="slide-5" class="carousel-item">
 			<div class="item-wrapper d-flex align-items-center">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/recover-slide-5.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slides/recover-slide-5.jpg" alt="">
 			</div>
 		</div>
 
 		<div id="slide-6" class="carousel-item">
 			<div class="item-wrapper d-flex align-items-center">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/recover-slide-6.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slides/recover-slide-6.jpg" alt="">
 			</div>
 		</div>
 

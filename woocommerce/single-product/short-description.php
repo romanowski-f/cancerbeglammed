@@ -30,7 +30,7 @@ if ( ! $short_description ) {
 ?>
 <div itemprop="description">
 	<div class="woocommerce-product-details__short-description">
-	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/why-we-like-it.svg" alt="" style="margin-bottom: 0px; margin-top: 4px; width: 202px">
+	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/why-we-like-it.svg" alt="" style="margin-bottom: 0px; margin-top: 4px; width: 202px">
 	<?php echo $short_description; // WPCS: XSS ok. ?>
     </div>
 </div>

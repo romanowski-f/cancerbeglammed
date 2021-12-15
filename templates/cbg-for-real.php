@@ -15,16 +15,16 @@ Template Name: CBG For Real
 		<div class="fashion-section">
 					
 			<header class="cbg-for-real-header">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/cbg-forreal-logo.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/cbg-forreal-logo.png" alt="">
 			</header>
 
 			<div class="section-wrapper">
 				<div class="section-cell section-fill intro-section">
 					<div class="icon-featured">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/icon-featured.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/icon-featured.jpg" alt="">
 					</div>
 					<div class="icon-logo">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/icon-logo.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/icon-logo.jpg" alt="">
 					</div>					
 					<div class="section-intro-text">
 						<h2>Living Flat</h2>
@@ -34,13 +34,13 @@ Template Name: CBG For Real
 					<div class="grey-bar bottom"></div>					
 				</div>
 				<div class="section-cell">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-1.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-1.jpg" alt="">
 				</div>				
 			</div>			
 
 			<div class="section-wrapper">
 				<div class="section-cell section-fill">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-2.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-2.jpg" alt="">
 					<div class="scarf-caption">
 						This was one of the suggestions that I initially balked at - that I had to hide. But the truth is show me a fabulous Etro scarf and I drool. I wore them before why would I stop now? 
 					</div>					
@@ -49,7 +49,7 @@ Template Name: CBG For Real
 
 			<div class="section-wrapper">
 				<div class="section-cell photo-3-wrapper">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-3.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-3.jpg" alt="">
 				</div>
 				<div class="section-fill direction-column">
 					<div class="grey-bar"></div>
@@ -64,7 +64,7 @@ Template Name: CBG For Real
 			<div class="section-wrapper desktop">
 				<div class="section-cell mb-15 sidebar-images">
 					<div class="sidebar-img-wrap first mb-15">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-4.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-4.jpg" alt="">
 					</div>
 					<div class="grey-bar"></div>
 					<div class="side-caption">
@@ -74,11 +74,11 @@ Template Name: CBG For Real
 					</div>	
 					<div class="grey-bar"></div>					
 					<div class="sidebar-img-wrap second mb-15">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-5.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-5.jpg" alt="">
 					</div>
 				</div>
 				<div class="section-cell section-fill">
-					<img class="mb-15" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-6.jpg" alt="">
+					<img class="mb-15" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-6.jpg" alt="">
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="grey-bar"></div>
@@ -87,7 +87,7 @@ Template Name: CBG For Real
 							</div>
 						</div>
 						<div class="col-sm-6">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-7.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-7.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -101,14 +101,14 @@ Template Name: CBG For Real
 						<p>I started by going through my closet. I made no decisions the first run through. After the second attempt, I made piles. One to give away. One to throw out that was long overdue. I took a dozen pieces in to the tailor. She rescued them and I spent far less than replacing them would cost.</p>
 					</div>						
 					<div class="sidebar-img-wrap">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-4.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-4.jpg" alt="">
 					</div>
 					<div class="sidebar-img-wrap">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-5.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-5.jpg" alt="">
 					</div>
 				</div>
 				<div class="section-cell section-fill">
-					<img class="mb-15" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-6.jpg" alt="">
+					<img class="mb-15" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-6.jpg" alt="">
 					<div class="section-wrapper">
 						<div class="col-sm-6">
 							<div class="grey-bar"></div>
@@ -117,7 +117,7 @@ Template Name: CBG For Real
 							</div>
 						</div>
 						<div class="col-sm-6">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-7.jpg" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-7.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -139,7 +139,7 @@ Template Name: CBG For Real
 			<div class="row mb-15 interview-header">
 				<div class="col-md-7 interview-title-col">
 					<div class="interview-title-wrap">
-						<img class="mb-15" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/cbg-forreal-logo.png" alt="">
+						<img class="mb-15" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/cbg-forreal-logo.png" alt="">
 						<hr>
 						<div class="interview-title">
 							<span class="qa">Q&amp;A</span> <span class="author-name">With Tina Martel</span>
@@ -148,7 +148,7 @@ Template Name: CBG For Real
 					</div>
 				</div>
 				<div class="col-md-5 d-flex">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-interview-header.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-interview-header.jpg" alt="">
 					<div class="grey-bar vertical"></div>
 				</div>				
 			</div>	
@@ -177,7 +177,7 @@ Template Name: CBG For Real
 						<div class="row blog-alert">
 							<div class="col-md-6">
 								<div class="grey-bar"></div>
-								<img class="mb-15" style="width: 100%" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbg-for-real/photo-interview.jpg" alt="">
+								<img class="mb-15" style="width: 100%" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cbg-for-real/photo-interview.jpg" alt="">
 								<div class="grey-bar"></div>
 							</div>
 							<div class="col-md-6 notice-col">

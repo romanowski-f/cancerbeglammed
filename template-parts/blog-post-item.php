@@ -1,7 +1,7 @@
 <div class="col-sm-3 px-1">
 <?php /* Thumbnail */
 	if (has_post_thumbnail()) : $bg = get_the_post_thumbnail_url(); 
-	else :                      $bg = get_template_directory_uri() . '/images/header/simple-logo.jpg';
+	else :                      $bg = get_template_directory_uri() . '/assets/images/header/simple-logo.jpg';
 	endif;  ?>
 <a href="<?php echo get_the_permalink(); ?>" class="blog-slider-thumbnail-wrap"><div class="blog-slider-thumbnail" style="background:url('<?php echo $bg; ?>') center no-repeat; background-size: cover;"></div></a>
 <?php $cat = get_the_category(); ?>

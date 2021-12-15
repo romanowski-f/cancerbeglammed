@@ -191,7 +191,7 @@
 .visit-blog {
 	/*height:303px;*/
 	width: 100%;
-	background: url('../images/cbg-for-real/button-bg.jpg') center no-repeat;
+	background: url('../assets/images/cbg-for-real/button-bg.jpg') center no-repeat;
 	background-size: cover;
 	float:right;
 /*	display: flex;

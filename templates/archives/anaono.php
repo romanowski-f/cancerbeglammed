@@ -1,4 +1,4 @@
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/ana-ono-header.jpg" style="float:right; margin-left: 10px; height: 250px; margin-top: 10px" alt="">
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/ana-ono-header.jpg" style="float:right; margin-left: 10px; height: 250px; margin-top: 10px" alt="">
 <p>We love that AnaOno understands that every body is unique and even more so after surgery. Founded by breast cancer survivor and fashion designer, Dana Donofree, AnaOno’s lingerie empowers women to embrace (and celebrate) their bodies following lumpectomies, mastectomies, reconstruction or going flat.</p>
 
 <p>At CBG we know that what it takes to turn a “a sometimes bra” into a “comfy, beloved, go-to” starts with a great fit. For that, we have partnered with the experts at AnaOno.</p>
@@ -12,7 +12,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsmg" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/implants.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/implants.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -27,7 +27,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsmk" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/flap.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/flap.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -44,7 +44,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsmn" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/unilateral.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/unilateral.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -63,7 +63,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsmr" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/mastectomy.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/mastectomy.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -79,7 +79,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsn6" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/lumpectomy.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/lumpectomy.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -95,7 +95,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsnc" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/flat.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/flat.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -112,7 +112,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsne" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/natural.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/natural.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>
@@ -129,7 +129,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="http://shrsl.com/2wsnp" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/anaono/all-bras.jpg" class="product-image" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/anaono/all-bras.jpg" class="product-image" alt="">
 
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at AnaOno</div>

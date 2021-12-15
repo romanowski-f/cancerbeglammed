@@ -27,13 +27,13 @@
 
 			<div class="row no-gutters mb-4">
 				<div class="col-md">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/recover-book/my-hair.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/recover-book/my-hair.jpg" alt="">
 				</div>
 				<div class="col-md">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/recover-book/stay-strong.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/recover-book/stay-strong.jpg" alt="">
 				</div>
 				<div class="col-md">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/recover-book/recover-in-style.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/recover-book/recover-in-style.jpg" alt="">
 				</div>
 			</div>
 

@@ -5,11 +5,11 @@
 			<div class="callout-banner welcome-banner d-flex align-items-center h-100">
 				<div class="row flex-grow-1">
 					<div class="col-lg d-sm-flex align-items-center justify-content-center position-relative text-center">
-						<div class="fave mr-4 text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/images/store/welcome-to.svg"></div>
+						<div class="fave mr-4 text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/welcome-to.svg"></div>
 						<p class="m-0 text-center" style="font-size:24px"><strong>CBG's</strong> Gift Her <br /> Boutique</p>
 					</div>
 					<div class="col-lg d-sm-flex align-items-center justify-content-center">
-						<div class="fave mr-4 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/images/store/shop-for.svg"></div>
+						<div class="fave mr-4 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/shop-for.svg"></div>
 						<p class="m-0 text-center text-sm-left">thoughtful recovery gifts <br />
 							that she will use and enjoy</p>	
 					</div>			
@@ -18,7 +18,7 @@
 		</div>
 
 		<div class="pl-md-0 d-none d-md-flex align-items-center go-home-banner">
-			<div class="callout-banner welcome-banner h-100 d-flex align-items-center" style="background: url('<?php echo get_template_directory_uri(); ?>/images/store/go-home-bg.jpg'); background-size: cover">
+			<div class="callout-banner welcome-banner h-100 d-flex align-items-center" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/store/go-home-bg.jpg'); background-size: cover">
 				<div class="wrap">
 					<div class="fave text-white" style="font-size:53px; line-height:1; display:inline-block">Go to</div>
 					<a href="<?php echo bloginfo('url'); ?>" class="go-home-btn d-inline-block">home page</a>
@@ -42,14 +42,14 @@
 			<div class="shop-product featured">
 				<a href="<?php echo bloginfo('url');?>/shop/clothes-that-help-heal">
 					<div class="shop-product__image">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/gift-her/feat-help.jpg" class="w-100 img-fluid" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/gift-her/feat-help.jpg" class="w-100 img-fluid" alt="">
 					</div>
 				</a>
 			</div>
 			<div class="shop-product featured">
 				<a href="<?php echo bloginfo('url');?>/shop/clothes-that-help-heal">
 					<div class="shop-product__image">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/gift-her/feat-heal.jpg" class="w-100 img-fluid" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/gift-her/feat-heal.jpg" class="w-100 img-fluid" alt="">
 					</div>
 				</a>
 				<h2>Clothes That Help & Heal</h2>
@@ -61,7 +61,7 @@
 			<div class="shop-product">
 				<a href="<?php echo bloginfo('url');?>/shop/wrap-it-up-in-style">
 					<div class="shop-product__image">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/gift-her/feat-wrap.jpg" class="w-100 img-fluid" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/gift-her/feat-wrap.jpg" class="w-100 img-fluid" alt="">
 					</div>
 				</a>
 				<h3>"Wrap It Up" in Style</h3>
@@ -71,7 +71,7 @@
 			<div class="shop-product">
 				<a href="<?php echo bloginfo('url');?>/shop/comfort-thats-cool">
 					<div class="shop-product__image">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/gift-her/feat-comfort.jpg" class="w-100 img-fluid" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/gift-her/feat-comfort.jpg" class="w-100 img-fluid" alt="">
 					</div>
 				</a>
 				<h3>Comfort That's Cool</h3>
@@ -86,7 +86,7 @@
 			<div class="shop-product banner">
 				<a href="<?php echo bloginfo('url');?>/shop/gift-her/thoughtful-things">
 					<div class="shop-product__image">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/gift-her/thoughtful-things.jpg" class="w-100 img-fluid" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/gift-her/thoughtful-things.jpg" class="w-100 img-fluid" alt="">
 					</div>
 				</a>
 				<h2>Thoughtful Things</h2>
@@ -114,7 +114,7 @@
 
 	<div class="row">
 		<div class="col">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/banner.jpg" class="w-100 img-fluid"alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/banner.jpg" class="w-100 img-fluid"alt="">
 		</div>
 	</div>
 </div>

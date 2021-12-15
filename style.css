@@ -4,32 +4,32 @@ Theme Name: Cancer Be Glammed - Recovery Boutique Theme
 
 @font-face {
 	font-family: 'Gotham Bold';
-	src: url('../fonts/Gotham-Bold.otf');
+	src: url('fonts/Gotham-Bold.otf');
 }
 
 @font-face {
 	font-family: 'Gotham Book';
-	src: url('../fonts/Gotham Book Regular.otf');
+	src: url('assets/fonts/Gotham Book Regular.otf');
 }
 
 @font-face {
 	font-family: 'Gotham Medium';
-	src: url('../fonts/Gotham Medium Regular.ttf');
+	src: url('assets/fonts/Gotham Medium Regular.ttf');
 }
 
 @font-face {
 	font-family: 'Gotham Thin';
-	src: url('../fonts/Gotham-Thin.otf');
+	src: url('assets/fonts/Gotham-Thin.otf');
 }
 
 @font-face {
 	font-family: 'Poynter';
-	src: url('../fonts/PoynterTextItalicThree Regular.ttf');
+	src: url('assets/fonts/PoynterTextItalicThree Regular.ttf');
 }
 
 @font-face {
 	font-family: 'Bodoni';
-	src: url('../fonts/BodoniSvtyTwoOSITCTTBook.ttf');
+	src: url('assets/fonts/BodoniSvtyTwoOSITCTTBook.ttf');
 }
 
 body {
@@ -632,7 +632,7 @@ padding: 10px;
 	margin:  0 auto;
 	height: 16px;
 	width: 100%;
-	background: url('../images/separator.png') center no-repeat;
+	background: url('assets/images/separator.png') center no-repeat;
 	position: relative;
 	opacity: 0.8;
 }
@@ -763,7 +763,7 @@ padding: 10px;
 
 .desc .separator,
 .separator.dark {
-	background: url('../images/separator-dark.png') center no-repeat;
+	background: url('assets/images/separator-dark.png') center no-repeat;
 	margin: 10px auto;
 	opacity: 0.4;
 }
@@ -1508,7 +1508,7 @@ height: auto !important;
 }
 
 span.onsale {
-background: url("../images/default/inspired.png") !important;
+background: url("assets/images/default/inspired.png") !important;
 height: 175px !important;
 white-space: nowrap;
 right:7.5px;
@@ -2267,7 +2267,7 @@ ul.cbg-tv-videos li:not(:last-child) {
 .row.hot-and-bloggered {
 	padding-top: 60px;
 	padding-bottom: 100px;
-	background-image: url('../images/front-page/hb-bg-top.jpg'), url('../images/front-page/hb-bg-bottom.jpg');
+	background-image: url('assets/images/front-page/hb-bg-top.jpg'), url('assets/images/front-page/hb-bg-bottom.jpg');
 	background-position: center top, center bottom;
 	background-size: 100% auto, 100% auto;
 	background-repeat: no-repeat;

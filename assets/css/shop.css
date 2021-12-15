@@ -79,12 +79,12 @@
 /* ---------------------------- MAIN */
 .callout-banner { padding: 10px; min-height: 116px}
 .callout-banner.welcome-banner { 
-	background: url('../images/store/banner-bg.jpg') center no-repeat; 
+	background: url('../assets/images/store/banner-bg.jpg') center no-repeat; 
 	background-size: cover; 
 }
 
 .callout-banner.want-more-banner {
-	background: url('../images/store/want-more-banner.jpg') center no-repeat; 
+	background: url('../assets/images/store/want-more-banner.jpg') center no-repeat; 
 	background-size: contain; 	
 }
 
@@ -192,7 +192,7 @@ a.banner-btn:hover {
 .shop-quote::before,
 .shop-quote::after {
 	content: "";
-	background: url('../images/store/quotation-mark.png') center no-repeat;
+	background: url('../assets/images/store/quotation-mark.png') center no-repeat;
 	background-size:100%;
 	width: 85px;
 	height: 60px;

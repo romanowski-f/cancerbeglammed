@@ -29,7 +29,7 @@ global $post, $product;
 	<div class="meta-tell-a-glam">
 		<?php $url = get_the_permalink(); ?>
 		<?php $title = get_the_title(); ?>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/tell-a-glam.svg" style="width: 144px"> <a href="mailto:?subject=Check%20out%20this%20great%20<?php echo $title; ?>%20at%20CancerBeGlamed.com&body=Check%20out%20this%20<?php echo $title; ?>%20I%20found%20on%20CancerBeGlammed.com:%20<?php echo $url; ?>" target="_blank" rel="noopener">SHARE with a friend</a>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/tell-a-glam.svg" style="width: 144px"> <a href="mailto:?subject=Check%20out%20this%20great%20<?php echo $title; ?>%20at%20CancerBeGlamed.com&body=Check%20out%20this%20<?php echo $title; ?>%20I%20found%20on%20CancerBeGlammed.com:%20<?php echo $url; ?>" target="_blank" rel="noopener">SHARE with a friend</a>
 	</div>
 
 	<div class="questions">

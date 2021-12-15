@@ -1,6 +1,6 @@
 <p>Whether you are undergoing treatment, in survivorship, or just enjoy makeup, Clean Beauty is the way to go. Many of us want to have a better understanding of what defines clean beauty and how we can integrate the products and philosophy into our lives.</p>
 
-<div class="row"><img class="d-block mx-auto my-3" style="width: 250px" src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/beautycounter/maxine-shangold.jpg" alt=""></div>
+<div class="row"><img class="d-block mx-auto my-3" style="width: 250px" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/beautycounter/maxine-shangold.jpg" alt=""></div>
 
 <p>That’s why we have partnered with Maxine Shangold, a Beautycounter Consultant and Clean Beauty Advocate who went on a quest to eliminate harmful chemicals and products in her family’s life following her daughter Alyssa’s recovery from brain cancer. </p>
 
@@ -10,7 +10,7 @@
 <li class="cbg-product-wrapper">
 	<div class="cbg-product">
 		<a class="image-wrap" href="https://www.beautycounter.com/maxineshangold?goto=/product/counterstart-cococream-cleanser" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/beautycounter/counterstart.jpg" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/beautycounter/counterstart.jpg" alt="">
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at Beautycounter</div>
 	       	</div>
@@ -26,7 +26,7 @@
 	<div class="cbg-product">
 		<?php $image = ''; ?>
 		<a class="image-wrap" href="https://www.beautycounter.com/maxineshangold?goto=/product/dew-skin-tinted-moisturizer/variant-1690" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/beautycounter/dew-skin.jpg" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/beautycounter/dew-skin.jpg" alt="">
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at Beautycounter</div>
 	       	</div>
@@ -42,7 +42,7 @@
 	<div class="cbg-product">
 		<?php $image = ''; ?>
 		<a class="image-wrap" href="https://www.beautycounter.com/maxineshangold?goto=/product/melting-body-balm" target="_blank">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/beautycounter/melting-body-balm.jpg" alt="" width="600" height="600" >
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/beautycounter/melting-body-balm.jpg" alt="" width="600" height="600" >
 			<div class="image-wrap__overlay">
 				<div class="okoa-product__button blue">Shop at Beautycounter</div>
 	       	</div>
@@ -63,7 +63,7 @@
 			<div class="cbg-product">
 				<?php $image = ''; ?>
 				<a class="image-wrap" href="https://www.beautycounter.com/maxineshangold?goto=/product/lip-conditioner-set" target="_blank">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/beautycounter/lip-conditioner.jpg" alt="" width="600" height="600" >
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/beautycounter/lip-conditioner.jpg" alt="" width="600" height="600" >
 					<div class="image-wrap__overlay">
 						<div class="okoa-product__button blue">Shop at Beautycounter</div>
 			       	</div>
@@ -78,7 +78,7 @@
 			<div class="cbg-product">
 				<?php $image = ''; ?>
 				<a class="image-wrap" href="https://www.beautycounter.com/maxineshangold?goto=/product/clean-deo" target="_blank">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/beautycounter/clean-deo.jpg" alt="" width="600" height="600" >
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/beautycounter/clean-deo.jpg" alt="" width="600" height="600" >
 					<div class="image-wrap__overlay">
 						<div class="okoa-product__button blue">Shop at Beautycounter</div>
 			       	</div>

@@ -21,14 +21,14 @@ function cbg_shop_page() {
 		<div class="col-md-8">
 			<div class="shop-product featured">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/featured-product-sample-1.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/featured-product-sample-1.jpg" alt="">
 				</div>
 				<h2>Dress For Success</h2>
 				<p>Be fashion-forward!  Prepare for surgery with our collection of clever, easy-to-wear post-op clothes.  Perfect for limited mobility, managing drains, and a "life made easier" recovery.  <a href="#">Shop Collection</a></p>
 			</div>
 			<div class="shop-product featured">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/featured-product-sample-2.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/featured-product-sample-2.jpg" alt="">
 				</div>
 				<h2>Chemo & Radiation Essentials</h2>
 				<p>Create a recovery wardrobe as unique as you! From chic chemo beanies for hair loss to clothes with easy port-access or cozy cover-ups, express yourself in comfort & style. <a href="#">Shop Collection</a></p>
@@ -37,21 +37,21 @@ function cbg_shop_page() {
 		<div class="col-md-4 shop-sidebar d-none d-md-block">
 			<div class="shop-product">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/sidebar-1.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/sidebar-1.jpg" alt="">
 				</div>
 				<h3>Menopause Madness Relief</h3>
 				<p>Torm rem apariem, eaque ipsa qae ab illo</p>
 			</div>
 			<div class="shop-product">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/sidebar-2.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/sidebar-2.jpg" alt="">
 				</div>
 				<h3>Your Breast Life (Re-Imagined)</h3>
 				<p>Torm rem apariem, eaque ipsa qae ab illo</p>
 			</div>
 			<div class="shop-product">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/sidebar-3.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/sidebar-3.jpg" alt="">
 				</div>
 				<h3>Clean Beauty & Wellness</h3>
 				<p>Torm rem apariem, eaque ipsa qae ab illo</p>
@@ -63,7 +63,7 @@ function cbg_shop_page() {
 		<div class="col-sm-12">
 			<div class="shop-product banner">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/banner-1.jpg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/banner-1.jpg" alt="">
 				</div>
 				<h2>"Feel Good" Goodies</h2>
 				<p>Delight yourself with hip essentials like a water bottle with a built-in flavor infuser or frozen pearls for cool, soothing relief. All styled to help you look and feel better. (Of course!) <a href="#">Shop Collection</a></p>
@@ -88,7 +88,7 @@ function cbg_shop_page() {
 	<div class="row">
 		<div class="col-xs-12">
 			<a href="#">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/shop-more.jpg" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/shop-more.jpg" alt="">
 			</a>
 		</div>
 	</div>

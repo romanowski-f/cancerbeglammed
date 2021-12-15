@@ -18,7 +18,7 @@
 <li class="cbg-category-wrapper">
 	<div class="cbg-category">
 	<a class="image-wrap" href="<?php echo bloginfo('url');?>/shop/beautycounter">
-		<img src="<?php echo get_stylesheet_directory_uri();?>/images/store/beautycounter/beautycounter-tile.png" alt="Lifestyle Apparel &amp; Accessories" >		
+		<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/store/beautycounter/beautycounter-tile.png" alt="Lifestyle Apparel &amp; Accessories" >		
 	</a>
 	<div class="cbg-category__meta">
 		<a href="<?php echo bloginfo('url'); ?>/shop/beautycounter"><h2 class="cbg-category__title">Clean Beauty with Beautycounter Consultant Maxine Shangold</h2></a>

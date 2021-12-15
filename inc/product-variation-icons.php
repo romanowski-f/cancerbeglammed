@@ -19,7 +19,7 @@ function woo_remove_product_tabs( $tabs ) {
 add_filter( 'woocommerce_product_description_tab_title', 'cbg_rename_description_product_tab_label' );
 
 function cbg_rename_description_product_tab_label() {
-    return '<img class="d-block mr-3" src="' . get_stylesheet_directory_uri() . '/images/store/lifestyle-solutions.svg" style="width: 100px">';
+    return '<img class="d-block mr-3" src="' . get_stylesheet_directory_uri() . '/assets/images/store/lifestyle-solutions.svg" style="width: 100px">';
 }
 
 // Change 'Cart' text

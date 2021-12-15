@@ -5,11 +5,11 @@
 
 				<div class="row flex-grow-1">
 					<div class="col-lg d-sm-flex align-items-center justify-content-center position-relative text-center">
-						<div class="fave mr-2 text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/images/store/welcome-to.svg" style="width: 130px;"></div>
+						<div class="fave mr-2 text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/welcome-to.svg" style="width: 130px;"></div>
 						<p class="m-0 text-center" style="font-size:20px"><strong>CBG's</strong> Life & Style <br /> Recovery Boutique</p>
 					</div>
 					<div class="col-lg d-sm-flex align-items-center justify-content-center">
-						<div class="fave mr-2 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/images/store/shop-for.svg" style="width: 103px"></div>
+						<div class="fave mr-2 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/shop-for.svg" style="width: 103px"></div>
 						<p class="m-0 text-center text-sm-left" style="font-size:16px">clothes, accessories &amp; <br />
 							lifestyle solutions to help you <br />
 							recover in comfort & style</p>	
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="pl-md-0 d-none d-md-flex align-items-center go-home-banner">
-			<div class="callout-banner welcome-banner h-100 d-flex align-items-center" style="background: url('<?php echo get_template_directory_uri(); ?>/images/store/go-home-bg.jpg'); background-size: cover">
+			<div class="callout-banner welcome-banner h-100 d-flex align-items-center" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/store/go-home-bg.jpg'); background-size: cover">
 				<div class="wrap">
 					<div class="fave text-white" style="font-size:53px; line-height:1; display:inline-block">Go to</div>
 					<a href="<?php echo bloginfo('url'); ?>" class="go-home-btn d-inline-block">home page</a>
@@ -47,7 +47,7 @@
 			<div class="shop-product featured">
 				<a href="<?php echo bloginfo('url');?>/shop/after-surgery">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-after-surgery-2.jpg" class="w-100 img-fluid" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-after-surgery-2.jpg" class="w-100 img-fluid" alt="">
 				</div>
 			</a>
 				<h2>Dress For Success</h2>
@@ -56,7 +56,7 @@
 			<div class="shop-product featured">
 				<a href="<?php echo bloginfo('url');?>/shop/chemo-radiation-essentials">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-chemo.jpg" class="w-100 img-fluid" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-chemo.jpg" class="w-100 img-fluid" alt="">
 				</div>
 				</a>
 				<h2>Chemo & Radiation Essentials</h2>
@@ -76,7 +76,7 @@
 			<div class="shop-product">
 				<a href="<?php echo bloginfo('url');?>/shop/hospital-gowns-pajamas">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-pjs.jpg" class="w-100 img-fluid" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-pjs.jpg" class="w-100 img-fluid" alt="">
 				</div>
 				<h3>Hospital Pajamas & Gowns</h3>
 				</a>
@@ -85,7 +85,7 @@
 			<div class="shop-product">
 				<a href="<?php echo bloginfo('url');?>/shop/menopause-madness-relief">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-menopause.jpg" class="w-100 img-fluid" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-menopause.jpg" class="w-100 img-fluid" alt="">
 				</div>
 				<h3>Menopause Madness Relief</h3>
 				</a>
@@ -94,7 +94,7 @@
 			<div class="shop-product">
 				<a href="<?php echo bloginfo('url');?>/shop/your-breast-life-reimagined">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-breast.jpg" class="w-100 img-fluid" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-breast.jpg" class="w-100 img-fluid" alt="">
 				</div>
 				<h3>Your Breast Life <br />(Re-Imagined)</h3>
 				</a>
@@ -103,7 +103,7 @@
 			<div class="shop-product">
 				<a href="<?php echo bloginfo('url');?>/shop/beauty-wellness">
 				<div class="shop-product__image">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-clean.jpg" class="w-100 img-fluid" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-clean.jpg" class="w-100 img-fluid" alt="">
 				</div>
 				<h3>Beauty &amp; Wellness</h3>
 				</a>
@@ -119,7 +119,7 @@
 			<div class="shop-product banner">
 				<a href="<?php echo bloginfo('url');?>/shop/feel-good-goodies">
 					<div class="shop-product__image">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/store/feat-feel-good.jpg" class="w-100 img-fluid" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/store/feat-feel-good.jpg" class="w-100 img-fluid" alt="">
 					</div>
 				</a>
 				<h2>"Feel Good" Goodies</h2>
@@ -132,7 +132,7 @@
 		<div class="col-md-8 mb-3 mb-sm-0">
 			<div class="shop-product mb-0 d-flex flex-column justify-content-center position-relative">
 				<a href="<?php echo bloginfo('url');?>/shop/ostomy-life-style-solutions">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/store/ostomy-graphic.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/ostomy-graphic.png" alt="">
 				</a>
 			</div>
 		</div>
@@ -170,13 +170,13 @@
 	<div class="callout-banner want-more-banner mb-5 d-flex align-items-center">
 		<div class="row flex-grow-1">
 			<div class="col-lg d-sm-flex align-items-center justify-content-center position-relative">
-				<div class="fave mr-4 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/images/store/want-more.svg"></div>
+				<div class="fave mr-4 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/want-more.svg"></div>
 				<p class="m-0 text-center text-sm-left" style="font-size: 22px"><strong>lifestyle</strong> information <br /> 
 					and “take charge" <br />
 					recovery solutions?</p>
 			</div>
 			<div class="col-lg d-sm-flex align-items-center justify-content-center">
-				<div class="fave mr-4 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/images/store/head-to.svg"></div>
+				<div class="fave mr-4 text-center text-nowrap"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/store/head-to.svg"></div>
 				<div class="text-center text-sm-left">
 					<a class="banner-btn d-inline-block" href="<?php echo bloginfo('url'); ?>">Home Page</a>
 					<span style="color:  #e0f4f3">&amp;</span>
