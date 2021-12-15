@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/romanowski-f/cancerbeglammed#readme",
   "devDependencies": {
+    "grunt": "^1.4.1",
     "purify-css": "^1.2.5"
   }
 }
