@@ -1,0 +1,257 @@
+/*---------------------------- Slider ---------------*/
+
+#main-slider {
+	width: 100%;
+	position: relative;
+}
+
+#main-slider::before {
+	content: "";
+	display: block;
+	padding-top: 34.32%;
+}
+
+#main-slider .carousel-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-item { height: 100%; }
+
+.elements-wrapper {margin-top: -20px;}
+
+.recovery-logo img {
+	height: auto;
+	width: 65%;
+}
+
+.slide-title {
+	font-size: 77px;
+    font-family: 'Gotham Book';
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 0.85;
+}
+
+.slide-title.blue { color: #25adcb; }
+
+.logo-element-wrapper { padding: 15px; }
+ 
+.slide-3-title {
+	font-family: 'Gotham Bold';
+	color: #fff;
+	font-size: 56px;
+	line-height: 0.85;
+	animation-duration: 0.3s;
+}
+
+.slide-3-subtitle {
+	font-family: 'Gotham Book';
+	color: #8b68a1;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 0.85;
+	animation-duration: 0.3s;	
+	letter-spacing: -4px;
+	margin-top: -40px;
+}
+
+.slide-3-tagline {
+	color: #fff;
+	font-family: 'Poynter';
+	margin: 15px 0;
+	font-size: 20px;
+}
+
+#slide-3 .elements-wrapper {
+	margin-left: calc(14% + 15px);
+    width: 345px;
+}
+
+.slider-button {
+	border: 1.5px solid #25adcb;
+    color: #25adcb;
+    background: transparent;
+    text-transform: uppercase;
+    position: relative;
+    padding: 9px 34px 3px 39px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    font-size: 20px;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.slider-button::before {
+	content: "";
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	bottom: -8px;
+	right: -8px;
+	border: inherit;
+	background: inherit;
+}
+
+.slider-button::after {
+	position: absolute;
+	content: "";
+	left: -1.5px;
+	top: -1.5px;
+	right: -1.5px;
+	bottom: -1.5px;
+	border: inherit;
+}
+
+.slider-button::before {
+	z-index: -1;
+}
+
+.slider-button.white {
+	border-color: #fff;
+	color: #fff;
+}
+
+.slider-button:hover  {
+	color: #fef0c6;
+	border-color: #fef0c6;
+	background: #25adcb;
+}
+
+#slide-2 .slider-button:hover {
+	color: #f9e6df;
+	border-color: #f9e6df;
+}
+
+.slider-button:hover::after { background:transparent; }
+
+.carousel-control-next, .carousel-control-prev {
+	top:50%;
+	bottom: auto;
+	height:40px;
+	width: 40px;
+	background:rgba(0, 0, 0, 0.8);
+	border-radius:100%;
+	transform: translateY(-50%);
+}
+
+.carousel-indicators li {
+	height:15px;
+	width: 15px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	border-radius:100%;
+	opacity: 1;
+	margin: 0 10px;
+	background-clip: unset;
+}
+
+.carousel-indicators .active { background-color:#fff; }
+
+
+
+
+/* ================================================= */
+/*	Holiday Slide
+/* ================================================= */
+
+#slide-holiday img.present {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+#slide-holiday .slide-title {
+	color: #eb3c2e;
+	font-family: 'Gotham Bold';
+	letter-spacing: -4px;
+	font-size: 76px;
+}
+
+#slide-holiday .slide-title.smaller {
+	font-size: 52px;
+}
+
+#slide-holiday .slide-title span {
+	font-family: 'Gotham Book';
+	font-style: italic;
+	text-transform: lowercase;
+	font-weight: 300;
+	font-size: 42px; 
+	margin-left: -10px
+}
+
+#slide-holiday .slider-button {
+	border-color: #be7a1c;
+	color: #be7a1c;
+}
+
+#slide-holiday .slider-button:hover {
+	background: #fff;
+}
+
+@media (max-width: 1199px) {
+	#main-slider::before { padding-top: 41%; }
+	.slide-title { font-size: 67px; }	
+	.slider-button { font-size: 18px; }
+
+	.slide-3-subtitle { margin-top: -20px; }
+}
+
+@media (max-width: 991px) {
+	#main-slider::before { padding-top: 44%; }
+	.slide-title { font-size: 48px; }	
+	.slider-button { font-size:16px; padding:10px 10px 6px 14px; }
+
+	.slide-3-title { font-size: 36px; }
+	#slide-3 .elements-wrapper { width: 221px; }
+	.slide-3-subtitle { font-size: 36px; }
+	.slide-3-tagline { font-size:12px; }
+}
+
+@media (max-width: 767px) {
+	#main-slider::before { padding-top: 54%; }
+	.slide-title { font-size: 42px; }	
+	.slide-3-subtitle { margin-top: 10px; }
+
+	#slide-holiday .slide-title 		{ font-size: 32px; }
+	#slide-holiday .slide-title span	{ font-size: 20px; margin-left:0; }
+	#slide-holiday .slide-title.smaller { font-size: 24px; }
+}
+
+@media (max-width: 575px) {
+	#main-slider { margin-bottom: 30px; }
+	#main-slider::before { padding-top: 60%; }
+	.slide-title { font-size: 32px; }	
+
+	.logo-element-wrapper { justify-content: center; margin-left: -14%; }
+	#slide-3 .elements-wrapper { width:100%; margin: 0; }
+	.slide-3-subtitle { font-size:  42px; margin: 0px 0 15px; }
+	.slide-3-tagline { display: none; }
+
+	#main-slider .carousel-indicators {
+		transform: translateY(100%);
+		margin-bottom: 0;
+		bottom: -23px;
+	}	
+
+	.carousel-indicators li.active { background: #08accd; }
+	.carousel-indicators li { border-color: #08accd; }
+
+	.carousel-control-next, .carousel-control-prev { 
+		top: auto;
+    	bottom: -10px;
+    	transform: translateY(100%);
+    	margin: 0 10px;
+    }
+}

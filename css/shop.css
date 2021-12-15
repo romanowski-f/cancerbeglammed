@@ -1,0 +1,255 @@
+.color-blue {
+	color: #08accd;
+}
+
+.shop-headline {
+	background: #d5e9e7;
+	color: #08accd;
+	padding: 10px 0;
+	margin-bottom: 15px;
+}
+
+.shop-categories ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+.shop-categories ul li {
+	background: #879d93;
+	flex: 1;
+	text-align: center;
+	margin: 0 2px;
+	min-height: 50px;
+	padding: 0 5px;
+}
+
+.shop-categories ul li a {
+	color: #fff;
+	font-size:16px;
+	font-family: calibri, sans-serif;
+	line-height:1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	transition: 0.2s;
+	text-transform: uppercase;
+}
+
+.shop-categories ul li a:hover {
+	color: #d5e9e8;
+}
+
+.fave {
+	font-family: fave-script-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.go-home-banner {
+	width: 226px;
+}
+
+@media (max-width: 767px) {
+	.go-home-banner { width: 100%; padding: 0 15px; margin-top: 15px; }
+	.go-home-banner .callout-banner { width:100%; }
+}
+
+.go-home-btn {
+	font-size: 21px;
+    background: #fff;
+    color: #07accd;
+    font-family: calibri;
+    margin: 0 5px;
+    padding: 0 10px;
+    position: relative;
+    top: -5px;	
+	font-weight: 700;
+    transition: 0.2s;
+    text-transform: uppercase;
+    border: 1.5px solid #07accd;
+}
+
+
+/* ---------------------------- MAIN */
+.callout-banner { padding: 10px; min-height: 116px}
+.callout-banner.welcome-banner { 
+	background: url('../images/store/banner-bg.jpg') center no-repeat; 
+	background-size: cover; 
+}
+
+.callout-banner.want-more-banner {
+	background: url('../images/store/want-more-banner.jpg') center no-repeat; 
+	background-size: contain; 	
+}
+
+.callout-banner .fave {
+	color: #fff;
+	font-size:  66px;
+	transform: rotate(-4deg);
+	text-shadow: 1px 1px 5px rgba(91, 143, 150, 0.68);
+}
+
+.woocommerce .callout-banner p {
+	font-family: 'calibri', sans-serif;
+	color: #07accd;
+	font-size: 20px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+
+.woocommerce .callout-banner.want-more-banner p { color: #e0f4f3; }
+.woocommerce .callout-banner.want-more-banner p strong { color: #617a72; }
+
+.callout-banner .col-lg:first-child::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	height: 30px;
+	width: 2px;
+	background: #07accd;
+	margin-top: -15px;
+	opacity: 0.2;
+}
+
+.callout-banner.want-more-banner .col-lg:first-child::after {
+	background: #e0f4f3;
+	opacity: 0.4;
+}
+
+a.banner-btn {
+	border: 1.5px solid #e0f4f3;
+	color: #e0f4f3;
+	padding: 2px 4px;
+	font-weight: 700;
+	transition: 0.2s;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+a.banner-btn:hover {
+	background: #e0f4f3;
+	color: #617a72;
+}
+
+.shop-product { margin-bottom: 40px; }
+.shop-sidebar .shop-product { margin-bottom: 20px; }
+.shop-sidebar .shop-product:last-child { margin-bottom: 0; }
+
+.shop-product__image { background: #dcecec; margin-bottom: 22px; }
+
+.shop-product.preview          .shop-product__image { padding-top: 36%; }
+
+.shop-product h2,
+.shop-product h3 {
+	font-family: 'Gotham Book';
+	text-transform: none;
+	font-size: 22px;
+	margin-top: 9px;
+	color:#000;
+}
+
+.shop-product p {
+	font-size: 15px;
+	line-height: 1.4;
+	color:#000;
+}
+
+.shop-sidebar .shop-product p { font-size: 13px; }
+
+.shop-callout,
+.shop-quote {
+	background-color: #c8e1e0;
+	color: #07accd;
+	height: 332px;
+}
+
+.shop-callout span {
+	font-family: calibri, sans-serif;
+	font-size: 45px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom: 27px;
+}
+
+.shop-quote { padding: 0 75px 0 100px; }
+.shop-quote span.quote {
+	font-size: 50px;
+	font-family: adobe-garamond-pro, serif;
+	font-weight: 700;
+	line-height: 0.9;
+	margin: 15px 0;
+}
+.shop-quote span.name { font-family: calibri, sans-serif; font-size: 20px; line-height: 1; }
+
+.shop-quote::before,
+.shop-quote::after {
+	content: "";
+	background: url('../images/store/quotation-mark.png') center no-repeat;
+	background-size:100%;
+	width: 85px;
+	height: 60px;
+	position: absolute;
+}
+.shop-quote::before { top: 0; left: 20px; }
+.shop-quote::after  { bottom: 0; right: 20px; transform: scale(-1);}
+
+.shop-btn {
+	border:1px solid #000;
+	background:#fff;
+	color:#000;
+	font-family: calibri, sans-serif;
+	font-size:18px;
+	padding: 6px 0;
+	width: 150px;
+	margin:0 auto;
+	display: block;
+	font-weight:700;
+}
+
+@media (max-width: 1200px) {
+	.callout-banner .fave {
+		font-size: 48px;
+	}
+
+	.woocommerce .callout-banner p { font-size: 18px; }
+}
+
+@media (max-width: 992px) {
+	.callout-banner.welcome-banner,
+	.callout-banner.want-more-banner { background-size: cover; }
+	
+	.callout-banner .col-lg {
+		padding: 15px 0;
+	}
+	.callout-banner .col-lg:first-child::after {
+		bottom: 0;
+		top: auto;
+		right: 50%;
+		margin-top: 0;
+		height: 2px;
+		width: 20%;
+		margin-right: -10%;
+	}
+}
+
+@media (max-width:  767px) {
+	.shop-quote { padding: 20px; }
+	.shop-quote span.quote { text-align:center; font-size:34px; }
+}
+
+@media (max-width: 576px) {
+	.shop-categories ul { flex-wrap: wrap; }
+	.shop-categories ul li { margin-bottom: 5px; }
+
+	.shop-callout, .shop-quote { height: auto; }
+	.shop-quote { padding: 20px; }
+	.shop-quote span.quote { font-size: 26px; }
+}

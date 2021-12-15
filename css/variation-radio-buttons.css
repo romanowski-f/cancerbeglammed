@@ -1,0 +1,146 @@
+/*@font-face {
+    font-family: 'proxima nova';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/proxima-nova.ttf");
+}*/
+
+.woocommerce p {
+	font-family: 'Gotham Book', sans-serif!important;
+	color:#000!important;
+}
+
+.woocommerce-page div.product div.images {
+	width: 56%;
+}
+
+.woocommerce-page div.product div.summary {
+	width:42%;
+}
+
+h1.product_title {
+	font-family: 'Gotham Book';
+	font-size: 28px!important;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+	color:#000;
+	font-family: 'Gotham Book';
+}
+
+.woocommerce div.product form.cart .variations select,
+.attribute-radio-button {
+	display: none;
+}
+
+.variations-row .label { padding: 0; }
+
+.variations-row .label  label{
+	text-transform: none;
+	/*font-family: 'proxima-nova', sans-serif;*/
+	font-size: 18px;
+	font-weight: 900;
+	padding: 0;
+}
+
+.attribute-icon {
+	cursor: pointer;
+	margin-right: 15px;
+	text-align: center;
+	width: 40px;
+	margin-bottom: 0;
+}
+
+.attribute-check {
+	background-color: #d7d8d8;;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	margin: 0 auto 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.attribute-name {
+	font-weight: 800;
+	font-size: 14px;
+	color: #000;
+}
+
+.pa_color .attribute-name {
+	display: none;
+}
+
+.attribute-radio-button:checked ~ label .attribute-check {
+	border: 2px solid #fff;
+	/*box-shadow: 2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;*/
+}
+
+.attribute-radio-button:checked ~ label .attribute-check::after {
+	position: absolute;
+	content:"";
+	border: 2px solid #000;
+	top: 50%;
+	left: 50%;
+	height:44px;
+	width: 44px;
+	transform: translate(-50%, -50%);
+	border-radius: 100%;
+}
+
+.attribute-icon-bg {
+	background-image: url('assets/images/icons/attribute-icons.png?ver=1.0.1');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.attribute-icon-bg.peppermint 		{ background-position: -65px center; }
+.attribute-icon-bg.peanut-butter 	{ background-position: -130px center; }
+.attribute-icon-bg.chicken-liver 	{ background-position: -195px center; }
+.attribute-icon-bg.icon-one-time 	{ background-position: -261px center; }
+.attribute-icon-bg.icon-subscribe	{ background-position: -325px center; }
+
+
+.woocommerce-product-gallery {
+    display: flex;
+}
+
+.woocommerce-product-gallery .flex-control-thumbs {
+    order: -10;
+    margin-right: 5px!important;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+
+div.cbg-product-description p {
+	font-size:16px!important;
+	margin: 20px 0!important;
+}
+
+.woocommerce-page div.product form.cart div.quantity {
+	float: none;
+}
+
+.woocommerce div.product form.cart .button {
+	width: 100%;
+	float: none;
+	background:#000;
+	text-transform: none;
+	padding: 14px 0;
+	font-size:16px;
+	border-radius: 0;
+	margin-bottom: 20px!important;
+}
+
+.woocommerce div.product form.cart .button:hover {
+	background: #08accd;
+}
