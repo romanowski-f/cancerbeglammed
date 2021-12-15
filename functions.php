@@ -11,7 +11,9 @@ function cbg_theme_setup() {
   // Title tag
   add_theme_support( 'title-tag' );
 
-  // Woocommerce
+  /**
+   * WooCommerce theme support
+   */
   add_theme_support( 'woocommerce', array(
       'thumbnail_image_width' => 600,
       'single_image_width'    => 600,
@@ -25,7 +27,6 @@ function cbg_theme_setup() {
           'max_columns'     => 5,
       ),
   ) );
-
   add_theme_support( 'wc-product-gallery-zoom' );
   add_theme_support( 'wc-product-gallery-lightbox' );
   add_theme_support( 'wc-product-gallery-slider' );
@@ -45,10 +46,6 @@ function cbg_theme_setup() {
 
 add_action('after_setup_theme', 'cbg_theme_setup');
 
-add_action( 'before_woocommerce_init', function() {
-  remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
-} );
-
 
 /**
  * Register Widgets
@@ -56,9 +53,6 @@ add_action( 'before_woocommerce_init', function() {
 require get_template_directory() . '/inc/template-widgets.php';
 
 
-
-
-// CSS Hierarchy
 /**
  * Add stylesheet to the page
  */
@@ -96,9 +90,7 @@ function safely_add_stylesheet() {
 }
 add_action( 'wp_enqueue_scripts', 'safely_add_stylesheet', 20 );
 
-function woocommerce_template_product_description() {
-   woocommerce_get_template( 'single-product/tabs/description.php' );
-}
+
 
 /**
 * CBG For Real Stylesheet
@@ -350,39 +342,11 @@ function cbg_featured_products() {
 }
 
 
+/**
+ * WooCommerce setup
+ */
+require get_template_directory() . '/inc/woocommerce/woocommerce-setup.php';
 
-//add_filter( 'woocommerce_product_tabs', 'cbg_remove_product_tabs', 98 );
-function cbg_remove_product_tabs( $tabs ) {
-    global $product;
-    if( !has_term( 'cbg-store', 'product_cat', $product->id ) ) {
-      unset( $tabs['description'] );             // Remove the description tab
-      unset( $tabs['reviews'] );                 // Remove the reviews tab
-      unset( $tabs['additional_information'] );  // Remove the additional information tab
-    }
-    return $tabs;
-}
-
-
-include(get_stylesheet_directory() . '/inc/product-variation-icons.php');
-//include(get_stylesheet_directory() . '/templates/nav/walker.php');
-
-
-
-// To change add to cart text on single product page
-//add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' );
-// function woocommerce_custom_single_add_to_cart_text() {
-//     return __( 'Add to Bag', 'woocommerce' );
-// }
-
-// To change add to cart text on product archives(Collection) page
-// add_filter( 'woocommerce_product_add_to_cart_text', 'woocommerce_custom_product_add_to_cart_text' );
-// function woocommerce_custom_product_add_to_cart_text() {
-//     return __( 'Add to Bag', 'woocommerce' );
-// }
-
-// add_filter( 'excerpt_length', function($length) {
-//     return 20;
-// }, PHP_INT_MAX );
 
 function excerpt($limit) {
       $excerpt = explode(' ', get_the_excerpt(), $limit);
@@ -398,68 +362,3 @@ function excerpt($limit) {
 
       return $excerpt;
 }
- 
-if( function_exists('acf_add_options_page') ) {
-  acf_add_options_page(array(
-    'page_title'  => 'Fab Finds Display Order',
-    'menu_title'  => 'Fab Finds',
-    'menu_slug'   => 'fab-finds-order-settings',
-    'capability'  => 'activate_plugins',
-    'redirect'    => false
-  ));
-}
-
-// function filter_posts() {
-//   $catSlug        = $_POST['category'];
-//   $post_count     = 11;
-//   $posts_per_item = 4;
-
-//   $ajaxposts = new WP_Query([
-//     'posts_per_page' => $post_count,
-//     'category_name' => $catSlug,
-//   ]);
-//   $response = '';
-
-//   if($ajaxposts->have_posts()) {
-//     while($ajaxposts->have_posts()) : $ajaxposts->the_post(); 
-
-//         $count = $ajaxposts->current_post + 1; 
-
-//         /* Blog post */ 
-//         $response .= '<div class="col-sm px-1">';
-
-//         if (has_post_thumbnail()) : $bg = get_the_post_thumbnail_url(); 
-//         else :                      $bg = get_template_directory_uri() . '/images/header/simple-logo.jpg';
-//         endif;  
-
-//         $response .= '<a href="' . get_the_permalink() . '"><div style="height:200px; background:url(' . $bg . ') center no-repeat; background-size: cover;"></div></a>';
-
-//         $cat = get_the_category(); 
-//         $category_name = $cat[0]->cat_name;
-//         $category_link = get_category_link( $cat[0]->cat_ID ); 
-
-//         $response .= '<p class="small mt-3 mb-0"><a href="' . $category_link . '">' . $category_name . '</a></p>';
-//         $response .= '<h5 class="mt-1 mb-2"><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h5>';
-//         $response .= '<p>' . get_the_excerpt() . '</p>';
-
-//         $response .= '</div>';
-
-//         /* Close carousel item */ 
-
-//         if ( ( $count ) % $posts_per_item === 0 && $count != $post_count) : 
-//           $response .= '</div></div>';
-//           $response .= '<div class="carousel-item"><div class="row no-gutters">';
-//         endif; 
-//     endwhile;
-
-//     $response .= '<div class="col-sm-3 px-1 d-flex flex-column justify-content-center">';
-//     $response .= '<a class="blog-slider-read-more mx-auto" href="' . $category_link . '"></a>';
-//     $response .= '<h5 class="mt-1 mb-2 text-center"><a href="' . $category_link . '">Read More ' . $category_name . '</a></h5>';
-//     $response .= '</div>';
-//   } 
-
-//   echo $response;
-//   exit();
-// }
-// add_action('wp_ajax_filter_posts', 'filter_posts');
-// add_action('wp_ajax_nopriv_filter_posts', 'filter_posts');
