@@ -37,7 +37,7 @@
 	<meta name="msapplication-TileColor" content="#b91d47">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" id="theme-style-css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css?ver=5.1.32" type="text/css" media="all">
+    <!-- <link rel="stylesheet" id="theme-style-css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css?ver=5.1.32" type="text/css" media="all"> -->
 <!-- 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Dancing+Script|Atma' rel='stylesheet' type='text/css'> -->
 	<meta name="google-site-verification" content="XT6CQ6BVIpdGLvG3NLJ1ADpL-YXSoWUtPjL9kaZc2Lg" />

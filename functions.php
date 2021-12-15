@@ -41,11 +41,6 @@ function cbg_theme_setup() {
       'mobile-menu'       => 'Mobile Menu'
     )
   );
-
-  // register_nav_menu( 'mainmenu','Main Menu' );
-  // register_nav_menu( 'secondary-menu','Secondary Menu' );
-  // register_nav_menu( 'recovery-boutique','Recovery Boutique' );
-  // register_nav_menu( 'mobile-menu','Mobile Menu' );
 }
 
 add_action('after_setup_theme', 'cbg_theme_setup');
@@ -53,17 +48,6 @@ add_action('after_setup_theme', 'cbg_theme_setup');
 add_action( 'before_woocommerce_init', function() {
   remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 } );
-
-
-// Register menus
-// add_action( 'after_setup_theme', 'register_menus' );
-
-// function register_menus() {
-//   register_nav_menu( 'mainmenu','Main Menu' );
-//   register_nav_menu( 'secondary-menu','Secondary Menu' );
-//   register_nav_menu( 'recovery-boutique','Recovery Boutique' );
-//   register_nav_menu( 'mobile-menu','Mobile Menu' );
-// }
 
 
 /**
@@ -92,12 +76,7 @@ function safely_add_stylesheet() {
   wp_enqueue_style('cbg-fonts', 'https://use.typekit.net/jii2kmx.css');
 
   // Style
-	wp_enqueue_style( 'prefix-style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
-
-  // Category filter
-  // wp_register_script('cat-filter', get_template_directory_uri() . '/js/cat-filter.js', array(), '1.0.09');
-  // wp_localize_script('cat-filter', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
-  // wp_enqueue_script('cat-filter'); 
+	wp_enqueue_style( 'prefix-style', get_template_directory_uri() . '/style.css', array(), CBG_VERSION, 'all' );
 
   // Front Page
   if (is_front_page()) {
